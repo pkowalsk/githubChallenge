@@ -1,0 +1,56 @@
+#app {
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #4d4d4d;
+    min-width: 550px;
+    max-width: 850px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+a.active {
+    color: orange;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+.userRow {
+  padding: 5px 0 0 20px;
+}
+
+.userDetails {
+  padding: 5px;
+  border: 1px solid #ddd;
+  background: #eee;
+}
+
+.userDetails a {
+  line-height: 30px;
+}
+
+.avatar {
+  float: left;
+  height: 30px;
+  padding-right: 10px;
+}
+
+.avatarLarge {
+  float: left;
+  height: 60px;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.repoName {
+  margin-bottom: 5px;
+}
+
+.issueList {
+  padding-top: 10px;
+  color: #00f;
+}
+
+.hasIssues {
+  color: #f00;
+}
